@@ -10,6 +10,15 @@ body {
     background-color: #f0f0f0;
 }
 
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
 #reportContainer {
     width: 80%;
     height: 80%;
@@ -26,4 +35,30 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#imageContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imageContainer img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.Tituloprincipal{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informe de Power BI</title>
+    <title>Minera Bateas</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="vicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="logo-container">
+        <img src="images/bateas.png" alt="Logo" class="logo">
+    </div>
+    <div class="Tituloprincipal">REPORTE DE CREACIÓN DE PROVEEDORES</div>
     <div id="reportContainer"></div>
-    <button id="downloadPdfBtn">Descargar como PDF</button>
+    <!-- <button id="downloadPdfBtn">Descargar como PDF</button> -->
+    <select id="monthDropdown">
+        <option value="">Selecciona un mes</option>
+        <option value="enero">Enero</option>
+        <option value="febrero">Febrero</option>
+        <option value="marzo">Marzo</option>
+        <option value="abril">Abril</option>
+        <option value="mayo">Mayo</option>
+        <option value="junio">Junio</option>
+        <option value="julio">Julio</option>
+        <option value="agosto">Agosto</option>
+        <option value="septiembre">Septiembre</option>
+        <option value="octubre">Octubre</option>
+        <option value="noviembre">Noviembre</option>
+        <option value="diciembre">Diciembre</option>
+    </select>
+    
+    <select id="weekDropdown">
+        <option value="">Selecciona una semana</option>
+        <option value="semana1">Semana 1</option>
+        <option value="semana2">Semana 2</option>
+        <option value="semana3">Semana 3</option>
+        <option value="semana4">Semana 4</option>
+        <option value="semana5">Semana 5</option>
+    </select>
+    
+    <div id="imageContainer"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/powerbi-client/2.15.0/powerbi.min.js"></script>
     <script src="script.js"></script>
 </body>
